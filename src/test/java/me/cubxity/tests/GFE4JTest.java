@@ -31,7 +31,7 @@ public class GFE4JTest {
 
         CreateInputParams in = new CreateInputParams();
         in.appName = "Test";
-        in.scopeTable = scopes[0];
+        in.scopeTable = nScopes;
         in.scopeTableSize = new SizeT(scopes.length);
         in.pollForCallbacks = false;
 

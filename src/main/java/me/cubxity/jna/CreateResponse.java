@@ -24,9 +24,9 @@ public class CreateResponse extends Structure {
             "scopePermissionTableSize"
     );
 
-    public int versionMajor;
+    public UInt16T versionMajor;
 
-    public int versionMinor;
+    public UInt16T versionMinor;
 
     public String gfeVersionStr;
 

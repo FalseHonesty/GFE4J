@@ -34,7 +34,7 @@ public class CreateInputParams extends Structure {
 
     public String appName;
 
-    public int scopeTable;
+    public Pointer scopeTable;
 
     public SizeT scopeTableSize;
 

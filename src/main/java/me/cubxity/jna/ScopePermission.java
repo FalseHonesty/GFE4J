@@ -22,12 +22,12 @@ public class ScopePermission extends Structure {
 
     public int permission;
 
-    public ScopePermission(Pointer p) {
-        super(p);
-    }
-
     @Override
     public List<String> getFieldOrder() {
         return FIELD_ORDER;
+    }
+
+    public static class ByReference extends ScopePermission implements Structure.ByReference {
+
     }
 }
